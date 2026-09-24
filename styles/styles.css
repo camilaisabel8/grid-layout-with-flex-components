@@ -80,6 +80,11 @@ all the content vertically. */
     flex-direction: column;
 }
 
+
+/* The emoji appears after the title in the HTML,
+so order: -1 moves it above the title.
+ Used align-self that centers only the emoji inside the card. */
+
 .icon {
     order: -1;
     align-self: center;
@@ -106,6 +111,8 @@ main {
     padding-right: 1rem;
 }
 
+
+/* Add some space underneath the main page title. */
 
 .siteheader h1 {
     margin-bottom: 1.5rem;
