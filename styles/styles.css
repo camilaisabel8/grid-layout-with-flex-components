@@ -25,3 +25,31 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+/**************************************************
+***************MY STYLES***************************
+**************************************************/
+
+/*I started with grid ("activated" with display:grid) to distribute the emojis in two columns.
+I added a gap:; Initially tried with 1fr of gap but it didn't work, so I changed it to 20px.*/
+.emojis {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.icon {
+    display:flex;
+    display
+    justify-content:center;
+    vertical-align:middle;
+    order: -1;
+}
+h2 {
+    display:flex;
+}
+a {
+    display:flex;
+    margin: 0 10px;
+}
+order minus 1
